@@ -46,7 +46,7 @@ window.addEventListener("mousemove", function(event) {
     
     var mouseX = (event.clientX - window.innerWidth / 2) / window.innerWidth;
   var mouseY = (event.clientY - window.innerHeight / 2) / window.innerHeight;
-  camera.position.x = mouseX * 60;
+  camera.position.x = mouseX * (-60);
   camera.position.y = mouseY * 60;
   camera.position.z = (Math.max(Math.abs(mouseX), Math.abs(mouseY)) * 20)+10;
   console.log( camera.position.z)
