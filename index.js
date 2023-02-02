@@ -35,12 +35,12 @@ window.addEventListener('wheel', function(e){
     newCube3.rotateX( 0.5 );
 })
 window.addEventListener('click', function(e){
-  newCube.position.set(2,2, -3);
-newCube1.position.set(2,-2, 0); // socle
+  newCube.position.set(4,4, 0);
+newCube1.position.set(4,-4, 0); // socle
 newCube2.position.set(3,3, 0);
-newCube2.position.set(-2,2, 0);
+newCube2.position.set(-4,4, 0);
 newCube3.position.set(0,0, 0);
-cube.position.set(-2,-2, 0);
+cube.position.set(-4,-4, 0);
 })
 window.addEventListener("mousemove", function(event) {
     
